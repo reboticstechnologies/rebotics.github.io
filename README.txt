@@ -15,11 +15,6 @@ Files included:
 - styles.css
 - script.js
 
-To deploy:
-- Upload these files to any static host (GitHub Pages, Netlify, Vercel).
-- Update contact/address details in contact.html and footer.
-- Replace privacy and terms with your legal text.
-
 Generated for: Rebotics Technologies
 GST: 29APYPR8679H1ZG (Karnataka); 23APYPR8679H1ZS (Madhya Pradesh)
 Contact emails included in site: reboticstechnologies@gmail.com, info@reboticstechnologies.com
