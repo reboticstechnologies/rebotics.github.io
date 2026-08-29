@@ -1,0 +1,1 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 900 600'><defs><linearGradient id='c'><stop stop-color='#5e75ff'/><stop offset='1' stop-color='#151c44'/></linearGradient></defs><rect width='900' height='600' fill='url(#c)'/><path d='M150 520V220L450 80L750 220V520M250 500V290H650V500M380 500V360H520V500' fill='none' stroke='#fff' stroke-width='24'/></svg>
