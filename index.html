@@ -3,78 +3,160 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Rebotics - Technology, Medical & Education, and RERA registered real estate support.">
-<title>Rebotics | Technology, Medical & Education, RERA Support</title>
-<link rel="stylesheet" href="assets/style.css">
+<meta name="description" content="Rebotics.in - Technology, Medical & Education, RERA, Films, News, Civil, Products, Travel, Nature, Insurance and Investment initiatives.">
+<title>Rebotics.in | One Network. Many Possibilities.</title>
+<style>
+:root{
+  --bg:#07111f; --card:#0d1b2f; --card2:#10243d; --text:#f4f7fb;
+  --muted:#a9b8ca; --accent:#36d1dc; --accent2:#6c63ff;
+  --border:rgba(255,255,255,.10);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);
+  background:radial-gradient(circle at 15% 10%,#17375e 0,transparent 35%),
+             radial-gradient(circle at 85% 15%,#25205b 0,transparent 32%),var(--bg);
+  min-height:100vh;line-height:1.6;
+}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+header{padding:22px 0;border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.logo{font-size:28px;font-weight:800;letter-spacing:-1px}
+.logo span{color:var(--accent)}
+.nav a{color:var(--muted);font-size:14px}
+.hero{text-align:center;padding:88px 0 60px}
+.badge{display:inline-block;padding:7px 14px;border:1px solid rgba(54,209,220,.35);
+border-radius:999px;color:var(--accent);font-size:13px;margin-bottom:22px;background:rgba(54,209,220,.07)}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.03;letter-spacing:-3px;margin-bottom:20px}
+h1 .gradient{background:linear-gradient(90deg,var(--accent),#fff,var(--accent2));
+-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:720px;margin:auto;color:var(--muted);font-size:18px}
+.section-title{text-align:center;margin:20px 0 32px}
+.section-title h2{font-size:32px}
+.section-title p{color:var(--muted);margin-top:6px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:70px}
+.card{
+  display:block;padding:25px;border:1px solid var(--border);border-radius:20px;
+  background:linear-gradient(145deg,rgba(16,36,61,.94),rgba(9,24,42,.94));
+  transition:.25s transform,.25s border-color,.25s box-shadow;position:relative;overflow:hidden
+}
+.card:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(54,209,220,.07),transparent 45%);pointer-events:none}
+.card:hover{transform:translateY(-6px);border-color:rgba(54,209,220,.5);box-shadow:0 18px 45px rgba(0,0,0,.28)}
+.icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
+background:linear-gradient(135deg,var(--accent2),var(--accent));font-size:23px;margin-bottom:18px}
+.card h3{font-size:21px;margin-bottom:6px}
+.card p{font-size:14px;color:var(--muted);min-height:48px}
+.visit{display:inline-block;margin-top:18px;color:var(--accent);font-size:13px;font-weight:700}
+footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:13px}
+.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding-top:60px}h1{letter-spacing:-2px}.nav a{display:none}}
+</style>
 </head>
 <body>
+
 <header>
   <div class="container nav">
-    <a class="brand" href="index.html">REBOTICS</a>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="logo">rebotics<span>.in</span></div>
+    <a href="#network">Explore the Network ↓</a>
   </div>
 </header>
 
 <main>
 <section class="hero">
   <div class="container">
-    <div class="eyebrow">REBOTICS.IN</div>
-    <h1>Technology, innovation, social impact and trusted real-estate support.</h1>
-    <p>Welcome to Rebotics — the central web presence connecting our technology, medical & education, and RERA-focused real-estate support initiatives.</p>
+    <div class="badge">THE REBOTICS NETWORK</div>
+    <h1>One Network.<br><span class="gradient">Many Possibilities.</span></h1>
+    <p>
+      Rebotics.in is the central gateway to a growing network of technology,
+      social initiatives, real estate, media, news, infrastructure, products,
+      travel, nature, insurance and investment platforms.
+    </p>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="eyebrow">OUR PLATFORMS</div>
-    <h2>Choose a Rebotics platform</h2>
-    <div class="grid">
-
-      <article class="card tech">
-        <div class="icon">⚙</div>
-        <h3>Rebotics Technologies</h3>
-        <p>IT consulting, software handling, infrastructure support, medical equipment design, home automation, vehicle automation, security systems and connected technology solutions.</p>
-        <a class="button" href="http://tech.rebotics.in/">Visit Rebotics Technologies →</a>
-      </article>
-
-      <article class="card medical">
-        <div class="icon">✚</div>
-        <h3>Rebotics Medical & Education Trust</h3>
-        <p>Our medical and education initiative focused on technology-enabled healthcare, education and community-oriented programs.</p>
-        <a class="button secondary" href="http://medical.rebotics.in/">Visit Medical & Education Trust →</a>
-      </article>
-
-      <article class="card rera">
-        <div class="icon">🏠</div>
-        <h3>RERA Registered Real Estate Agent</h3>
-        <div class="rera-number">RERA Registration No.: <strong>PRM/KA/RERA/1251/310/AG/250915/006184</strong></div>
-        <p>Real-estate support for buyers looking to explore and purchase RERA-registered projects, with assistance in project information, enquiries and purchase-related coordination.</p>
-        <a class="button" href="http://rera.rebotics.in/">Visit RERA Real Estate →</a>
-      </article>
-
-    </div>
+<section id="network" class="container">
+  <div class="section-title">
+    <h2>Explore Rebotics</h2>
+    <p>Choose a platform to continue</p>
   </div>
-</section>
 
-<section class="band">
-  <div class="container center">
-    <h2>One Rebotics umbrella. Three focused platforms.</h2>
-    <p>Explore the platform relevant to your needs.</p>
+  <div class="grid">
+    <a class="card" href="https://tech.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">⚙</div><h3>Rebotics Technologies</h3>
+      <p>Technology, innovation, digital solutions and future-focused initiatives.</p>
+      <span class="visit">Visit tech.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://medical.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">✚</div><h3>Medical & Education Trust</h3>
+      <p>Medical, education, community support and social development initiatives.</p>
+      <span class="visit">Visit medical.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://rera.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">🏢</div><h3>RERA Real Estate</h3>
+      <p>RERA-registered real estate services, projects and channel partnerships.</p>
+      <span class="visit">Visit rera.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://film.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">🎬</div><h3>Rebotics Film</h3>
+      <p>Film, entertainment, production and creative media initiatives.</p>
+      <span class="visit">Visit film.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://news.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">📰</div><h3>Rebotics News</h3>
+      <p>News, information, stories, current affairs and public-interest content.</p>
+      <span class="visit">Visit news.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://civil.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">🏗</div><h3>Rebotics Civil</h3>
+      <p>Civil engineering, construction, infrastructure and development initiatives.</p>
+      <span class="visit">Visit civil.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://product.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">📦</div><h3>Rebotics Products</h3>
+      <p>Products, solutions, services and future commercial offerings.</p>
+      <span class="visit">Visit product.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://travel.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">✈</div><h3>Rebotics Travel</h3>
+      <p>Travel information, experiences, destinations and travel-related services.</p>
+      <span class="visit">Visit travel.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://nature.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">🌿</div><h3>Rebotics Nature</h3>
+      <p>Nature, environment, sustainability and conservation-focused initiatives.</p>
+      <span class="visit">Visit nature.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://insurance.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">🛡</div><h3>Rebotics Insurance</h3>
+      <p>Insurance information, assistance and related financial protection services.</p>
+      <span class="visit">Visit insurance.rebotics.in →</span>
+    </a>
+
+    <a class="card" href="https://invest.rebotics.in/" target="_blank" rel="noopener">
+      <div class="icon">📈</div><h3>Rebotics Invest</h3>
+      <p>Investment, opportunities, business initiatives and growth-focused platforms.</p>
+      <span class="visit">Visit invest.rebotics.in →</span>
+    </a>
   </div>
 </section>
 </main>
 
 <footer>
-  <div class="container footer">
-    <div><strong>REBOTICS</strong><p>Technology • Medical • Education • RERA Real Estate Support</p></div>
-    <div><p><a href="mailto:reboticstechnologies@gmail.com">reboticstechnologies@gmail.com</a><br>
-    <a href="tel:+919713293846">+91 9713293846</a></p></div>
+  <div class="container footer-inner">
+    <div>© 2026 Rebotics.in. All rights reserved.</div>
+    <div>Technology • Trust • Real Estate • Media • Infrastructure • Growth</div>
   </div>
-  <div class="copyright">© 2026 Rebotics. All rights reserved.</div>
 </footer>
 </body>
 </html>
