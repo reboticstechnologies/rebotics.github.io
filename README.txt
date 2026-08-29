@@ -1,25 +1,20 @@
-# Rebotics.in website package
+REBOTICS.IN UMBRELLA WEBSITE
+============================
 
-## Included
-- `index.html` — main Rebotics.in umbrella website
-- `Technologies/index.html` — starter page for technologies.rebotics.in
-- `Medical/index.html` — starter page for medical.rebotics.in
-- `reraagent/index.html` — starter page for reraagent.rebotics.in
-- `IT/index.html` — starter page for it.rebotics.in
-- `assets/` — CSS and supplied Rebotics artwork
+Files:
+- index.html
+- about.html
+- contact.html
+- assets/style.css
 
-## Suggested DNS
-At your DNS provider, create four subdomains:
-- technologies.rebotics.in
-- medical.rebotics.in
-- reraagent.rebotics.in
-- it.rebotics.in
+The main landing page links to:
+http://tech.rebotics.in/
+http://medical.rebotics.in/
 
-Point each subdomain to the hosting target where its respective folder/app is deployed. The exact A/CNAME values depend on your hosting provider.
-
-## Important
-- The public website intentionally does NOT publish the bank account number from the supplied bank document.
-- The Trust registration number and Darpan ID shown on the supplied artwork are included.
-- No RERA registration number was supplied, so none has been invented.
-- The supplied Trust artwork showed an SBI branch/IFSC different from the IFSC typed in the website request. Neither has been published in this starter website. Verify the correct banking details before adding any donation page.
-- Social URLs are based on the handles/links supplied in the request.
+Suggested GitHub Pages setup:
+1. Upload these files to the repository used for rebotics.in.
+2. Ensure index.html is in the published root.
+3. Configure rebotics.in / www.rebotics.in as the GitHub Pages custom domain.
+4. The two subdomains should be configured separately:
+   tech.rebotics.in -> Rebotics Technologies GitHub Pages site
+   medical.rebotics.in -> Rebotics Medical & Education Trust GitHub Pages site
