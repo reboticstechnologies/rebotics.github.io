@@ -3,160 +3,117 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Rebotics.in - Technology, Medical & Education, RERA, Films, News, Civil, Products, Travel, Nature, Insurance and Investment initiatives.">
-<title>Rebotics.in | One Network. Many Possibilities.</title>
+<meta name="description" content="Rebotics.in — One Brand. Infinite Possibilities. Explore the Rebotics ecosystem.">
+<title>REBOTICS | One Brand. Infinite Possibilities.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{
-  --bg:#07111f; --card:#0d1b2f; --card2:#10243d; --text:#f4f7fb;
-  --muted:#a9b8ca; --accent:#36d1dc; --accent2:#6c63ff;
-  --border:rgba(255,255,255,.10);
-}
 *{box-sizing:border-box;margin:0;padding:0}
-body{
-  font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);
-  background:radial-gradient(circle at 15% 10%,#17375e 0,transparent 35%),
-             radial-gradient(circle at 85% 15%,#25205b 0,transparent 32%),var(--bg);
-  min-height:100vh;line-height:1.6;
-}
-a{text-decoration:none;color:inherit}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:#10213b;background:#f7f9fc;line-height:1.6}
+a{text-decoration:none}
 .container{width:min(1180px,92%);margin:auto}
-header{padding:22px 0;border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
-.nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
-.logo{font-size:28px;font-weight:800;letter-spacing:-1px}
-.logo span{color:var(--accent)}
-.nav a{color:var(--muted);font-size:14px}
-.hero{text-align:center;padding:88px 0 60px}
-.badge{display:inline-block;padding:7px 14px;border:1px solid rgba(54,209,220,.35);
-border-radius:999px;color:var(--accent);font-size:13px;margin-bottom:22px;background:rgba(54,209,220,.07)}
-h1{font-size:clamp(42px,7vw,76px);line-height:1.03;letter-spacing:-3px;margin-bottom:20px}
-h1 .gradient{background:linear-gradient(90deg,var(--accent),#fff,var(--accent2));
--webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p{max-width:720px;margin:auto;color:var(--muted);font-size:18px}
-.section-title{text-align:center;margin:20px 0 32px}
-.section-title h2{font-size:32px}
-.section-title p{color:var(--muted);margin-top:6px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding-bottom:70px}
-.card{
-  display:block;padding:25px;border:1px solid var(--border);border-radius:20px;
-  background:linear-gradient(145deg,rgba(16,36,61,.94),rgba(9,24,42,.94));
-  transition:.25s transform,.25s border-color,.25s box-shadow;position:relative;overflow:hidden
-}
-.card:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(54,209,220,.07),transparent 45%);pointer-events:none}
-.card:hover{transform:translateY(-6px);border-color:rgba(54,209,220,.5);box-shadow:0 18px 45px rgba(0,0,0,.28)}
-.icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;
-background:linear-gradient(135deg,var(--accent2),var(--accent));font-size:23px;margin-bottom:18px}
-.card h3{font-size:21px;margin-bottom:6px}
-.card p{font-size:14px;color:var(--muted);min-height:48px}
-.visit{display:inline-block;margin-top:18px;color:var(--accent);font-size:13px;font-weight:700}
-footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:13px}
-.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.grid{grid-template-columns:1fr}.hero{padding-top:60px}h1{letter-spacing:-2px}.nav a{display:none}}
+header{position:sticky;top:0;z-index:100;background:rgba(4,17,43,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.1)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;font-size:25px;font-weight:800;letter-spacing:-1px}
+.logo-mark{width:39px;height:39px;border:2px solid #16a9ff;border-radius:10px;display:grid;place-items:center;color:#16a9ff;font-weight:900}
+.logo small{display:block;font-size:8px;font-weight:500;letter-spacing:1.4px;color:#a9bed8}
+nav{display:flex;gap:28px}
+nav a{color:#dce8f7;font-size:14px;font-weight:600}
+nav a:hover{color:#16a9ff}
+.hero{min-height:560px;color:#fff;background:
+linear-gradient(90deg,rgba(3,15,37,.98) 0%,rgba(3,15,37,.87) 38%,rgba(3,15,37,.22) 70%,rgba(3,15,37,.5) 100%),
+url("assets/hero.svg") center/cover;display:flex;align-items:center}
+.hero-content{max-width:650px;padding:82px 0}
+.kicker{color:#21b7ff;font-size:13px;font-weight:800;letter-spacing:2px;text-transform:uppercase;margin-bottom:17px}
+h1{font-size:clamp(45px,6vw,72px);line-height:1.05;letter-spacing:-3px}
+h1 span{color:#16a9ff}
+.hero p{font-size:18px;color:#d3dfed;max-width:600px;margin:23px 0 30px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 23px;border-radius:30px;background:#119ff3;color:#fff;font-weight:700;box-shadow:0 12px 30px rgba(17,159,243,.25)}
+.btn:hover{transform:translateY(-2px);background:#0b8ddc}
+.section{padding:78px 0}
+.section-head{text-align:center;margin-bottom:38px}
+.section-head h2{font-size:39px;letter-spacing:-1.5px;color:#0b1d3a}
+.section-head p{color:#66758a;margin-top:7px}
+.underline{width:55px;height:3px;background:#16a9ff;margin:10px auto 0;border-radius:5px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{min-height:250px;border-radius:16px;overflow:hidden;position:relative;background:#092044;color:#fff;background-size:cover;background-position:center;box-shadow:0 10px 28px rgba(10,30,60,.12);transition:.28s}
+.card:hover{transform:translateY(-7px);box-shadow:0 18px 38px rgba(10,30,60,.22)}
+.card:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(1,12,30,.95),rgba(1,12,30,.12) 75%)}
+.card-content{position:absolute;z-index:2;left:20px;right:20px;bottom:19px}
+.icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#109ff3;font-size:19px;margin-bottom:12px}
+.card h3{font-size:20px}.card p{font-size:13px;color:#dce6f2;margin:3px 0 11px}
+.visit{font-size:12px;color:#35c0ff;font-weight:800}
+.stats{background:#071e48;color:#fff;border-radius:17px;padding:28px 20px;display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:10px}
+.stat{text-align:center;border-right:1px solid rgba(255,255,255,.18)}.stat:last-child{border:0}
+.stat strong{font-size:31px;color:#20b3ff;display:block}.stat span{font-size:13px;color:#c4d4e8}
+footer{background:#04152f;color:#d6e2f1;padding:58px 0 20px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:38px}
+footer h3{color:#fff;margin-bottom:15px;font-size:15px}
+footer p,footer a{font-size:13px;color:#9eb1c9}
+footer a{display:block;margin:7px 0}
+.footer-logo{font-size:24px;font-weight:800;color:#fff;margin-bottom:12px}
+.copy{border-top:1px solid rgba(255,255,255,.1);margin-top:35px;padding-top:18px;text-align:center;font-size:12px;color:#8499b2}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){nav{display:none}.hero{min-height:600px}.grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border:0}.footer-grid{grid-template-columns:1fr}h1{letter-spacing:-2px}}
 </style>
 </head>
 <body>
-
 <header>
-  <div class="container nav">
-    <div class="logo">rebotics<span>.in</span></div>
-    <a href="#network">Explore the Network ↓</a>
-  </div>
+<div class="container nav">
+<a class="logo" href="#"><div class="logo-mark">R</div><div>REBOTICS<small>REDEFINING POSSIBILITIES</small></div></a>
+<nav><a href="#">Home</a><a href="#about">About</a><a href="#ecosystem">Ecosystem</a><a href="#vision">Vision</a><a href="#contact">Contact</a></nav>
+</div>
 </header>
 
-<main>
-<section class="hero">
-  <div class="container">
-    <div class="badge">THE REBOTICS NETWORK</div>
-    <h1>One Network.<br><span class="gradient">Many Possibilities.</span></h1>
-    <p>
-      Rebotics.in is the central gateway to a growing network of technology,
-      social initiatives, real estate, media, news, infrastructure, products,
-      travel, nature, insurance and investment platforms.
-    </p>
-  </div>
+<section class="hero" id="about">
+<div class="container hero-content">
+<div class="kicker">The Rebotics Network</div>
+<h1>One Brand.<br>Infinite <span>Possibilities.</span></h1>
+<p>Rebotics is a dynamic ecosystem of innovative ventures working across technology, healthcare, real estate, media, infrastructure, products, travel, nature, insurance and investment.</p>
+<a class="btn" href="#ecosystem">Explore Our Ecosystem →</a>
+</div>
 </section>
 
-<section id="network" class="container">
-  <div class="section-title">
-    <h2>Explore Rebotics</h2>
-    <p>Choose a platform to continue</p>
-  </div>
+<section class="section" id="ecosystem">
+<div class="container">
+<div class="section-head"><h2>Our Ecosystem</h2><div class="underline"></div><p>Explore the diverse initiatives under the Rebotics umbrella.</p></div>
+<div class="grid">
+<a class="card" href="https://tech.rebotics.in/" target="_blank" style="background-image:url('assets/tech.svg')"><div class="card-content"><div class="icon">⚙</div><h3>Tech</h3><p>Innovative IT solutions, software development & technology consulting.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://medical.rebotics.in/" target="_blank" style="background-image:url('assets/medical.svg')"><div class="card-content"><div class="icon">✚</div><h3>Medical</h3><p>Healthcare services, medical education & community wellness.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://rera.rebotics.in/" target="_blank" style="background-image:url('assets/rera.svg')"><div class="card-content"><div class="icon">🏢</div><h3>RERA</h3><p>RERA registered real estate and property services.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://film.rebotics.in/" target="_blank" style="background-image:url('assets/film.svg')"><div class="card-content"><div class="icon">🎬</div><h3>Film</h3><p>Film production, media, entertainment & creative storytelling.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://news.rebotics.in/" target="_blank" style="background-image:url('assets/news.svg')"><div class="card-content"><div class="icon">📰</div><h3>News</h3><p>News, analysis and information from around the world.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://civil.rebotics.in/" target="_blank" style="background-image:url('assets/civil.svg')"><div class="card-content"><div class="icon">🏗</div><h3>Civil</h3><p>Civil engineering, infrastructure & construction solutions.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://product.rebotics.in/" target="_blank" style="background-image:url('assets/product.svg')"><div class="card-content"><div class="icon">🛍</div><h3>Product</h3><p>Innovative products designed to simplify and enhance life.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://travel.rebotics.in/" target="_blank" style="background-image:url('assets/travel.svg')"><div class="card-content"><div class="icon">✈</div><h3>Travel</h3><p>Travel experiences, tour packages & global exploration.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://nature.rebotics.in/" target="_blank" style="background-image:url('assets/nature.svg')"><div class="card-content"><div class="icon">🌿</div><h3>Nature</h3><p>Conservation, sustainability & a greener planet.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://insurance.rebotics.in/" target="_blank" style="background-image:url('assets/insurance.svg')"><div class="card-content"><div class="icon">🛡</div><h3>Insurance</h3><p>Reliable insurance solutions for a secure tomorrow.</p><div class="visit">Visit Website →</div></div></a>
+<a class="card" href="https://invest.rebotics.in/" target="_blank" style="background-image:url('assets/invest.svg')"><div class="card-content"><div class="icon">📈</div><h3>Invest</h3><p>Investment advisory, financial planning & wealth creation.</p><div class="visit">Visit Website →</div></div></a>
+</div>
 
-  <div class="grid">
-    <a class="card" href="https://tech.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">⚙</div><h3>Rebotics Technologies</h3>
-      <p>Technology, innovation, digital solutions and future-focused initiatives.</p>
-      <span class="visit">Visit tech.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://medical.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">✚</div><h3>Medical & Education Trust</h3>
-      <p>Medical, education, community support and social development initiatives.</p>
-      <span class="visit">Visit medical.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://rera.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">🏢</div><h3>RERA Real Estate</h3>
-      <p>RERA-registered real estate services, projects and channel partnerships.</p>
-      <span class="visit">Visit rera.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://film.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">🎬</div><h3>Rebotics Film</h3>
-      <p>Film, entertainment, production and creative media initiatives.</p>
-      <span class="visit">Visit film.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://news.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">📰</div><h3>Rebotics News</h3>
-      <p>News, information, stories, current affairs and public-interest content.</p>
-      <span class="visit">Visit news.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://civil.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">🏗</div><h3>Rebotics Civil</h3>
-      <p>Civil engineering, construction, infrastructure and development initiatives.</p>
-      <span class="visit">Visit civil.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://product.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">📦</div><h3>Rebotics Products</h3>
-      <p>Products, solutions, services and future commercial offerings.</p>
-      <span class="visit">Visit product.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://travel.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">✈</div><h3>Rebotics Travel</h3>
-      <p>Travel information, experiences, destinations and travel-related services.</p>
-      <span class="visit">Visit travel.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://nature.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">🌿</div><h3>Rebotics Nature</h3>
-      <p>Nature, environment, sustainability and conservation-focused initiatives.</p>
-      <span class="visit">Visit nature.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://insurance.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">🛡</div><h3>Rebotics Insurance</h3>
-      <p>Insurance information, assistance and related financial protection services.</p>
-      <span class="visit">Visit insurance.rebotics.in →</span>
-    </a>
-
-    <a class="card" href="https://invest.rebotics.in/" target="_blank" rel="noopener">
-      <div class="icon">📈</div><h3>Rebotics Invest</h3>
-      <p>Investment, opportunities, business initiatives and growth-focused platforms.</p>
-      <span class="visit">Visit invest.rebotics.in →</span>
-    </a>
-  </div>
+<div class="stats">
+<div class="stat"><strong>11+</strong><span>Ventures</span></div>
+<div class="stat"><strong>5000+</strong><span>Happy Clients</span></div>
+<div class="stat"><strong>25+</strong><span>Countries</span></div>
+<div class="stat"><strong>100+</strong><span>Partners</span></div>
+</div>
+</div>
 </section>
-</main>
 
-<footer>
-  <div class="container footer-inner">
-    <div>© 2026 Rebotics.in. All rights reserved.</div>
-    <div>Technology • Trust • Real Estate • Media • Infrastructure • Growth</div>
-  </div>
+<section class="section" id="vision" style="padding-top:20px">
+<div class="container section-head"><h2>Vision & Mission</h2><div class="underline"></div><p>Build a connected ecosystem where technology, enterprise and social impact create meaningful opportunities for people and communities.</p></div>
+</section>
+
+<footer id="contact">
+<div class="container footer-grid">
+<div><div class="footer-logo">REBOTICS</div><p>Redefining possibilities through a growing ecosystem of innovative ventures and initiatives.</p></div>
+<div><h3>Quick Links</h3><a href="#">Home</a><a href="#about">About Us</a><a href="#ecosystem">Our Ecosystem</a><a href="#vision">Vision & Mission</a></div>
+<div><h3>Ecosystem</h3><a href="https://tech.rebotics.in/">Tech</a><a href="https://medical.rebotics.in/">Medical</a><a href="https://rera.rebotics.in/">RERA</a><a href="https://invest.rebotics.in/">Invest</a></div>
+<div><h3>Get In Touch</h3><p>Email: info@rebotics.in</p><p>Website: www.rebotics.in</p><p>India</p></div>
+</div>
+<div class="container copy">© 2026 Rebotics.in | All Rights Reserved.</div>
 </footer>
 </body>
 </html>

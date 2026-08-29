@@ -1,16 +1,20 @@
-# Rebotics.in Umbrella Website
+REBOTICS.IN WEBSITE
 
-Upload `index.html` to the root of your GitHub Pages repository for rebotics.in.
+Upload the contents of this folder to your GitHub Pages repository:
+- index.html
+- assets/
 
-Included links:
-- https://tech.rebotics.in/
-- https://medical.rebotics.in/
-- https://rera.rebotics.in/
-- https://film.rebotics.in/
-- https://news.rebotics.in/
-- https://civil.rebotics.in/
-- https://product.rebotics.in/
-- https://travel.rebotics.in/
-- https://nature.rebotics.in/
-- https://insurance.rebotics.in/
-- https://invest.rebotics.in/
+The homepage links to:
+tech.rebotics.in
+medical.rebotics.in
+rera.rebotics.in
+film.rebotics.in
+news.rebotics.in
+civil.rebotics.in
+product.rebotics.in
+travel.rebotics.in
+nature.rebotics.in
+insurance.rebotics.in
+invest.rebotics.in
+
+All image assets are self-contained SVGs, so the site does not depend on external image hosting.
